@@ -1,0 +1,17 @@
+GoFMT or Go format installed with Go
+
+go env to display the go env variables
+
+https://golang.org/doc/code.html reference for how to code in GO 
+
+to change or set the vars use export or set on cmd 
+in order to use the go install command one must create a new folder like gowork and within src/ bin/ pkg/
+export GOPATH=E:/D-Drive-Win/LinkedInTraining/Go/gowork
+
+to set GOPATH to set it back to the earlier val 
+go env -u GOPATH or 
+export GOPATH=C:/Usres/Vikas/go
+
+one can also modify the set GOOS=windows value to either darwin64 etc to generate the operating system specific exe 
+every variable defined in the code must be used otherwise it will lead to an error
+in order to avoid this error for the variables you know will be returned by the function; we can use _ or underscore to tell the compiler to skip this var
